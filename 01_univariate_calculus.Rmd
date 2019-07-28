@@ -219,7 +219,7 @@ optimize(g,c(-1,2))     # take care with signs
 ### Verification
 
 Always always always verify your findings.  We will take the values
-found by ```optim()``` and mark them on a plot, just to check that
+found by ```optimize()``` and mark them on a plot, just to check that
 they do in fact correspond to (local) maxima:
 
 ```{r}
